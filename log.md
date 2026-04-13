@@ -1,4 +1,22 @@
 # April 13 2026
+- https://arxiv.org/abs/2502.13069
+- https://arxiv.org/abs/2603.29848
+- https://arxiv.org/abs/2603.29665
+- https://arxiv.org/abs/2604.08407
+- https://arxiv.org/abs/2604.03081
+- https://arxiv.org/abs/2604.05292
+- https://arxiv.org/abs/2604.01052
+- https://arxiv.org/abs/2604.08083
+- https://arxiv.org/abs/2503.13580
+- https://arxiv.org/abs/2604.07494
+- https://arxiv.org/abs/2604.00392
+- https://arxiv.org/abs/2604.07502
+- https://arxiv.org/abs/2604.04288
+- https://arxiv.org/abs/2604.01680
+- https://arxiv.org/abs/2603.27130
+- https://arxiv.org/abs/2604.06946
+- https://arxiv.org/abs/2603.17974
+- https://arxiv.org/abs/2602.13377
 - https://arxiv.org/abs/2604.06742
 - https://arxiv.org/abs/2604.08291
 - https://arxiv.org/abs/2604.00594
