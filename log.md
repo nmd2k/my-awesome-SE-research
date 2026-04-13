@@ -1,4 +1,13 @@
 # April 13 2026
+- https://arxiv.org/abs/2604.06742
+- https://arxiv.org/abs/2604.08291
+- https://arxiv.org/abs/2604.00594
+- https://arxiv.org/abs/2602.07900
+- https://arxiv.org/abs/2603.15976
+- https://arxiv.org/abs/2603.23443
+- https://arxiv.org/abs/2602.16671
+- https://arxiv.org/abs/2603.01409
+- https://arxiv.org/abs/2603.19239
 - https://arxiv.org/abs/2604.07624
 - https://arxiv.org/abs/2604.08089
 - https://arxiv.org/abs/2604.05130

@@ -12,10 +12,27 @@ A curated list of awesome software engineering research papers, specifically foc
 
 ---
 
+## 🗓️ Today's Highlights — April 13, 2026
+
+| # | Paper | ArXiv | Category | One-liner |
+|---|-------|-------|----------|-----------|
+| 1 | **CLI-Tool-Bench** | [2604.06742](https://arxiv.org/abs/2604.06742) | LLM & Code LM | First benchmark for LLM 0-to-1 CLI tool generation; top models ≤43% success |
+| 2 | **VCAO** | [2604.08291](https://arxiv.org/abs/2604.08291) | Vuln Detection | Game-theoretic + LRM agentic OS vulnerability discovery framework |
+| 3 | **Agent Psychometrics** | [2604.00594](https://arxiv.org/abs/2604.00594) | Agent/SE | IRT-based task-level performance prediction for agentic coding benchmarks |
+| 4 | **Rethinking Agent Tests** | [2602.07900](https://arxiv.org/abs/2602.07900) | Agent/SE | Agent-written tests rarely drive resolution; mainly observation on SWE-bench |
+| 5 | **PETSc Agentic Eval** | [2603.15976](https://arxiv.org/abs/2603.15976) | Agent/SE | Agents-evaluating-agents framework for HPC scientific code quality |
+| 6 | **LLM Test Under Evolution** | [2603.23443](https://arxiv.org/abs/2603.23443) | Program Testing | 22,374-variant study: LLM tests often fail sensitivity & resilience properties |
+| 7 | **SPARC** | [2602.16671](https://arxiv.org/abs/2602.16671) | Program Testing | Neuro-symbolic CFG+LLM for C unit test generation; +31% line coverage |
+| 8 | **MIST-RL** | [2603.01409](https://arxiv.org/abs/2603.01409) | Program Testing | RL (GRPO) for mutation-based incremental test suite generation |
+| 9 | **Gordian** | [2603.19239](https://arxiv.org/abs/2603.19239) | Symbolic Execution | LLM ghost code defuses logic bombs in KLEE; 52–84% coverage gain |
+
+---
+
 ## LLM & Code LM
 
 | Paper | ArXiv / Link | Brief Summary | Key Result | Conf / Journal | Insights / Data |
 | :--- | :---: | :--- | :--- | :---: | :--- |
+| **CLI-Tool-Bench** | [2604.06742](https://arxiv.org/abs/2604.06742) | Structure-agnostic benchmark for LLM 0-to-1 CLI tool generation; 100 real-world repos, black-box differential testing. | Top LLMs achieve <43% success, highlighting the 0-to-1 gap. | - | - |
 | **InCoder-32B** | [2603.16790](https://arxiv.org/abs/2603.16790) | Code Foundation Model for Industrial Scenarios. | SOTA on 9 industrial benchmarks across 4 specialized domains. | - | - |
 | **IndustryCode** | [2604.02729](https://arxiv.org/abs/2604.02729) | A Benchmark for Industry Code Generation. | Top model (Claude 4.5 Opus) scores 68.1% on sub-problems. | - | - |
 | **FeatureBench** | [2602.10975](https://arxiv.org/abs/2602.10975) | Benchmarking Agentic Coding for Complex Feature Development. | Exposing a dramatic capability gap on real feature work (Claude 4.5 Opus 11.0%). | ICLR 2026 | - |
@@ -26,6 +43,9 @@ A curated list of awesome software engineering research papers, specifically foc
 
 | Paper | ArXiv / Link | Brief Summary | Key Result | Conf / Journal | Insights / Data |
 | :--- | :---: | :--- | :--- | :---: | :--- |
+| **Agent Psychometrics** | [2604.00594](https://arxiv.org/abs/2604.00594) | IRT augmented with task/repo/test-case features for task-level performance prediction; decomposes agent ability into LLM vs scaffold components. | Accurately predicts task-level pass/fail for unseen benchmarks & LLM-scaffold combos. | ICLR 2026 Workshop | - |
+| **Rethinking Agent-Generated Tests** | [2602.07900](https://arxiv.org/abs/2602.07900) | Analyzes 6 LLM agent trajectories on SWE-bench Verified; questions whether agent-written tests aid resolution. | Test writing frequency is similar for resolved vs unresolved tasks; value is mostly observational. | - | - |
+| **PETSc Agentic Eval** | [2603.15976](https://arxiv.org/abs/2603.15976) | Agents-evaluating-agents framework (petscagent-bench) for AI-generated HPC code via MCP/A2A protocols. | Frontier models score well on readability but fail library-specific HPC conventions. | - | - |
 | **Codified Context** | [2602.20478](https://arxiv.org/abs/2602.20478) | Infrastructure for AI Agents in a Complex Codebase. | 3-component persistent memory infra across 283 dev sessions. | - | - |
 | **Bugs in LLM Agent Frameworks** | [2602.21806](https://arxiv.org/abs/2602.21806) | Analysis of framework-level bugs in LangChain/CrewAI. | 998 bug reports → 15 root causes & 7 symptoms. | - | - |
 | **TraceCoder** | [2602.06875](https://arxiv.org/abs/2602.06875) | A Trace-Driven Multi-Agent Framework for Automated Debugging. | Outperforms baselines on Pass@1 accuracy; reduces redundant repairs. | ICSE 2026 | - |
@@ -38,6 +58,7 @@ A curated list of awesome software engineering research papers, specifically foc
 
 | Paper | ArXiv / Link | Brief Summary | Key Result | Conf / Journal | Insights / Data |
 | :--- | :---: | :--- | :--- | :---: | :--- |
+| **VCAO** | [2604.08291](https://arxiv.org/abs/2604.08291) | 6-layer agentic OS vulnerability discovery using game-theoretic (Bayesian Stackelberg) budget allocation across kernel files/functions with LRM orchestrator + cascaded verifiers. | Strategic, coverage-efficient OS vuln discovery with safety governance. | - | - |
 | **CPRVul** | [2602.06751](https://arxiv.org/abs/2602.06751) | Context-Aware Reasoning for Inter-Procedural Vulnerability Detection. | Inter-procedural CPG context + structured reasoning: +22.9% on PrimeVul. | - | - |
 | **Efficient Vuln Detection via Transformers** | [2604.00112](https://arxiv.org/abs/2604.00112) | Study of program slice representations for C/C++ vulnerability detection. | Transformer on program slices beats GNN baselines on C/C++. | - | - |
 | **When Labels Are Scarce** | [2604.00079](https://arxiv.org/abs/2604.00079) | Label-Efficient Code Vulnerability Detection survey. | First systematic mapping of 5 label-efficient vuln detection paradigms. | - | - |
@@ -54,6 +75,9 @@ A curated list of awesome software engineering research papers, specifically foc
 
 | Paper | ArXiv / Link | Brief Summary | Key Result | Conf / Journal | Insights / Data |
 | :--- | :---: | :--- | :--- | :---: | :--- |
+| **LLM Test Generation Under Software Evolution** | [2603.23443](https://arxiv.org/abs/2603.23443) | Large-scale (8 LLMs × 22,374 variants) mutation-driven study of LLM test generation sensitivity, resilience, and stability under semantic vs structural code change. | LLM-generated tests often miss semantic changes and over-fit to structural patterns. | - | - |
+| **SPARC** | [2602.16671](https://arxiv.org/abs/2602.16671) | Neuro-symbolic C unit test gen: CFG analysis → Operation Map → path-targeted LLM synthesis → iterative compiler/runtime repair. | +31.36% line, +26.01% branch, +20.78% mutation score; matches KLEE on complex subjects. | - | - |
+| **MIST-RL** | [2603.01409](https://arxiv.org/abs/2603.01409) | RL (GRPO) formulation for mutation-guided test suite generation; incremental mutation reward + dynamic penalties to curb redundancy. | Higher fault detection with fewer redundant tests than scaling-by-quantity baselines. | - | - |
 | **GALA** | [2604.08089](https://arxiv.org/abs/2604.08089) | Multimodal Graph Alignment for Bug Localization in APR. | Multimodal APR via UI Graph → structural code alignment; SoTA on SWE-bench Multimodal. | - | - |
 | **FL Granularity Study** | [2604.00167](https://arxiv.org/abs/2604.00167) | Impact of Fault Localization Granularity for Repository-Scale Code Repair. | Function-level generally best for repo-scale repair, but task-dependent. | - | - |
 | **SCPatcher** | [2604.00687](https://arxiv.org/abs/2604.00687) | Smart Contract Code Repair via RAG and Knowledge Graph. | RAG+KG for smart contract repair: CPR 90%, ERR 81.7%, ORR 73.5%. | - | - |
@@ -76,6 +100,7 @@ A curated list of awesome software engineering research papers, specifically foc
 
 | Paper | ArXiv / Link | Brief Summary | Key Result | Conf / Journal | Insights / Data |
 | :--- | :---: | :--- | :--- | :---: | :--- |
+| **Gordian** | [2603.19239](https://arxiv.org/abs/2603.19239) | Hybrid symbolic execution: LLMs generate ghost code (inversions, surrogates, semantic partitions) to help SMT solver bypass solver-hostile fragments in KLEE. | 52–84% higher coverage vs traditional SE; 86–419% vs SOTA LLM-SE; 90–96% fewer tokens. | - | - |
 | **SAFuzz** | [2602.11209](https://arxiv.org/abs/2602.11209) | Semantic-Guided Adaptive Fuzzing for LLM-Generated Code. | Strong recall with significant time savings for algorithmic vulnerability detection. | - | - |
 | **Coverage-Guided Harness Gen** | [2603.08616](https://arxiv.org/abs/2603.08616) | Multi-Agent Harness Generation for Java Library Fuzzing. | +26% median method-targeted coverage over OSS-Fuzz baselines. | - | - |
 | **AutoBug (LLM-Powered Symbolic Execution)** | [2505.13452](https://arxiv.org/abs/2505.13452) | Path-based decomposition with LLMs acting as approximate symbolic executors. | - | - | - |
