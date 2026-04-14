@@ -1,3 +1,19 @@
+# April 14 2026
+- https://arxiv.org/abs/2604.06506
+- https://arxiv.org/abs/2604.01496
+- https://arxiv.org/abs/2604.02547
+- https://arxiv.org/abs/2604.03515
+- https://arxiv.org/abs/2604.08906
+- https://arxiv.org/abs/2604.04238
+- https://arxiv.org/abs/2602.09774
+- https://arxiv.org/abs/2604.07891
+- https://arxiv.org/abs/2509.01313
+- https://arxiv.org/abs/2604.05560
+- https://arxiv.org/abs/2604.03622
+- https://arxiv.org/abs/2604.10481
+- https://arxiv.org/abs/2604.00790
+- https://arxiv.org/abs/2604.03632
+- https://arxiv.org/abs/2604.02617
 # April 13 2026
 - https://arxiv.org/abs/2502.13069
 - https://arxiv.org/abs/2603.29848
