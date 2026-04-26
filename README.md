@@ -12,7 +12,24 @@ A curated list of awesome software engineering research papers, specifically foc
 
 ---
 
-## 🗓️ Today's Highlights — April 19, 2026
+## 🗓️ Today's Highlights — April 26, 2026
+
+| # | Paper | Category | One-liner |
+|---|-------|----------|-----------|
+| 1 | [**AgentFlow**](https://arxiv.org/abs/2604.20801) | Vuln/Agent | Typed-graph DSL synthesizes multi-agent harnesses; discovers 10 zero-days in Chrome 35M LOC including 2 Critical sandbox-escape CVEs |
+| 2 | [**SWE-chat**](https://arxiv.org/abs/2604.20779) | Agent/SE | 6K real-user coding agent sessions: 41% vibe-coding, only 44% agent code survives to commit, agent code has more security bugs |
+| 3 | [**DebugRepair**](https://arxiv.org/abs/2604.19305) | Program Repair | Self-directed debugging APR: simulated instrumentation + runtime traces; +51.3% avg over vanilla LLM, 295 Defects4J bugs fixed |
+| 4 | [**SafeAgent**](https://arxiv.org/abs/2604.17562) | Agent/Vuln | Runtime middleware intercepts tool calls to block prompt injection; best NRP on ASB/InjecAgent while matching benign task rate |
+| 5 | [**RAVEN**](https://arxiv.org/abs/2604.17948) | Vuln Detection | 4-agent RAG pipeline (Explorer→RAG→Analyst→Reporter) for memory corruption analysis in source & binary programs |
+| 6 | [**False Security Confidence**](https://arxiv.org/abs/2604.17014) | Vuln Detection | FSC metric: measures vulnerable-but-correct LLM code; static analyzers miss FSC-hard vulnerabilities that remain dynamically triggerable |
+| 7 | [**LLM4C2Rust**](https://arxiv.org/abs/2604.15485) | Program Repair | RAG+SLM framework for C→Rust memory-safe transpilation; eliminates RPDs and UTCs in Coreutils targets |
+| 8 | [**CoT Deobfuscation**](https://arxiv.org/abs/2604.15390) | Static Analysis | Chain-of-Thought prompting for control-flow deobfuscation (CFF, Opaque Predicates); GPT-5 +16% CFG recon, +20.5% semantic preservation |
+| 9 | [**Strategic Multi-Agent Vuln Detection**](https://arxiv.org/abs/2604.21282) | Vuln Detection | "3+1" heterogeneous agent architecture (3 expert LLMs + local verifier) for cost-effective vuln detection; AAMAS 2026 |
+| 10 | [**Parallel-Code World Models**](https://arxiv.org/abs/2604.20926) | LLM & Code LM | Reasoning LLMs predict race outcomes & performance profiles for parallel code; 7B model improves race-fixing 2.7–9.1% over self-feedback |
+
+---
+
+## 🗓️ Previous Highlights — April 19, 2026
 
 | # | Paper | Category | One-liner |
 |---|-------|----------|-----------|
@@ -89,6 +106,8 @@ A curated list of awesome software engineering research papers, specifically foc
 | [**FeatureBench**](https://arxiv.org/abs/2602.10975) | Benchmarking Agentic Coding for Complex Feature Development. | Exposing a dramatic capability gap on real feature work (Claude 4.5 Opus 11.0%). | ICLR 2026 | - |
 | [**Code Review Agent Benchmark (c-CRAB)**](https://arxiv.org/abs/2603.23448) | Standardized benchmark for evaluating AI-based code review agents on realistic PRs. | Enables apples-to-apples comparison across agent frameworks. | - | - |
 | [**Failure-Aware Enhancements for LLM Code Generation**](https://arxiv.org/abs/2602.02896) | Progressive prompting study across 25 GitHub projects. | Hits 96.9% task completion vs 80.5% direct prompting. | - | - |
+| [**Parallel-Code World Models (PCWMs)**](https://arxiv.org/abs/2604.20926) | Reasoning LLMs trained to predict tool outcomes (data races, perf profiles) directly from parallel source code, bypassing expensive tool calls. A novel exploration pipeline generates hindsight reasoning traces causally linking code to observed tool behavior. | 7B model improves from 64.3%→72.8% race-outcome prediction accuracy; world-model feedback improves race-fixing 2.7–9.1% over self-feedback (7B) and 6.1–11.1% (14B). | - | Apr 22, 2026 |
+| [**REA-Coder**](https://arxiv.org/abs/2604.16198) | Requirement Alignment for Code Generation: identifies requirement content that LLMs mis-interpret, then aligns it before generation; targets the intent-execution gap between user specifications and generated code. | Improves code generation correctness on standard benchmarks over direct-prompting baselines. | - | Apr 17, 2026 |
 
 ## Agent/Agentic System for SE
 
@@ -113,6 +132,10 @@ A curated list of awesome software engineering research papers, specifically foc
 | [**ABTest**](https://arxiv.org/abs/2604.03362) | Behavior-Driven Testing for AI Coding Agents under adversarial usage. | Detected 1,573 behavioral anomalies across 3 coding-agent families. | - | - |
 | [**Agentic AI Software Engineers: Programming with Trust**](https://arxiv.org/abs/2502.13767) | Trust taxonomy + safety constraints for autonomous coding agents. | Guidelines for responsible deployment. | - | - |
 | [**FLARE**](https://arxiv.org/abs/2604.05289) | Agentic Coverage-Guided Fuzzing for LLM-Based Multi-Agent Systems. | 96.9% inter-agent coverage, 91.1% intra-agent coverage. | - | - |
+| [**SWE-chat**](https://arxiv.org/abs/2604.20779) | First large-scale dataset of real coding-agent sessions from open-source developers in the wild: 6,000 sessions, 63K+ user prompts, 355K+ agent tool calls; living dataset growing continuously. Analyzes adoption patterns, code quality, and human-agent dynamics in production. | 41% "vibe coding" (agent authors all committed code); only 44% of agent code survives to commit; agent-written code introduces more security vulnerabilities than human code; users push back in 44% of turns. | - | Stanford; Apr 22, 2026 |
+| [**SafeAgent**](https://arxiv.org/abs/2604.17562) | Runtime protection middleware for agentic systems: centralizes request handling, context management, and governance in a single layer between LLM and execution environment; defends against prompt injection attacks that propagate through multi-step workflows and tool interactions. | Best NRP (No Reduction in Performance) on Agent Security Bench (ASB) and InjecAgent; substantially reduces attack success rate while maintaining benign-task performance vs. text-level guardrails. | - | Apr 18–19, 2026 |
+| [**EvoAgent**](https://arxiv.org/abs/2604.20133) | Evolvable LLM agent framework integrating structured skill learning with hierarchical sub-agent delegation; models skills as multi-file structured capability units with triggering mechanisms and evolutionary metadata; closed-loop user-feedback-driven skill generation and optimization; three-layer memory architecture for long-term capability accumulation. | ~28% improvement across five LLM-as-Judge dimensions in real-world foreign trade scenarios with GPT-5.2. | - | Apr 22, 2026 |
+| [**Semi-Executable Stack**](https://arxiv.org/abs/2604.15468) | Position paper: SE's scope expands to semi-executable artifacts (natural language + tools + workflows + organizational routines) whose enactment is probabilistic, not deterministic; argues agentic SE will reshape software engineering around orchestration, verification, and trust. | Conceptual framework for rethinking SE research and practice in the agentic era. | ICSE Agentic Eng. Workshop 2026 | Apr 16, 2026 |
 
 ## Vulnerability Detection & Fixing
 
@@ -141,6 +164,10 @@ A curated list of awesome software engineering research papers, specifically foc
 | [**DRV Multi-Granularity**](https://arxiv.org/abs/2603.23633) | Extension of DRV to finer-grained multi-language settings. | Multi-language × multi-granularity DRV evaluation. | - | - |
 | [**VulnAgent-X**](https://arxiv.org/abs/2603.13384) | Layered agentic pipeline for vulnerability detection. | Best F1/AUROC on PrimeVul. | - | - |
 | [**Scalable Vuln Dataset**](https://arxiv.org/abs/2603.17974) | Automated pipeline for building repository-level vulnerability detection datasets using LLM agents + static analysis. | Enables scalable, diverse, real-world vuln dataset construction beyond synthetic benchmarks. | - | - |
+| [**AgentFlow**](https://arxiv.org/abs/2604.20801) | Synthesizes multi-agent fuzzing harnesses via a typed graph DSL covering agent roles, prompts, tools, communication topology, and coordination protocol; feedback-driven outer loop reads runtime signals to rewrite failing harness components; evaluated on Google Chrome (35M LOC C/C++). | 10 previously unknown zero-days discovered in Chrome including 2 Critical sandbox-escape CVEs (CVE-2026-5280, CVE-2026-6297) confirmed by Google VRP; 84.3% on TerminalBench-2. | - | Apr 22, 2026 |
+| [**RAVEN**](https://arxiv.org/abs/2604.17948) | 4-agent RAG pipeline for memory corruption vulnerability analysis in user code and binary programs: Explorer agent identifies vulnerabilities → RAG engine retrieves curated knowledge → Analyst assesses impact and exploitation → Reporter generates structured root-cause analysis reports (Google Project Zero template). | End-to-end automated synthesis of professional-grade vulnerability analysis reports for memory safety bugs. | - | Apr 20, 2026 |
+| [**False Security Confidence (FSC)**](https://arxiv.org/abs/2604.17014) | Introduces FSC metric: prevalence of security failures within functionally correct LLM-generated code in ordinary (non-attack) tasks; formalizes "FSC-hard" subset where static analyzers miss vulnerabilities that remain dynamically triggerable; framework paper establishing terminology and measurement protocol. | Reveals that conventional functional correctness evaluation does not capture security failures in correct code; creates benchmark (github.com/SysSoftwareSecLab/fsc-benchmark). | - | Apr 18, 2026; Macau Univ |
+| [**Strategic Heterogeneous Multi-Agent Vuln Detection**](https://arxiv.org/abs/2604.21282) | "3+1" architecture: 3 cloud-based expert LLM agents (DeepSeek-V3) analyze code from complementary perspectives (structure, security patterns, debug traces) + 1 local lightweight verifier; game-theoretic budget allocation; balances detection accuracy with computational cost. | Cost-effective vulnerability detection competitive with full-LLM baselines at fraction of cost. | AAMAS 2026 | Apr 23, 2026 |
 
 ## Program Repair & Program Testing
 
@@ -162,6 +189,8 @@ A curated list of awesome software engineering research papers, specifically foc
 | [**Why LLMs Fail in Sec Patching**](https://arxiv.org/abs/2603.10072) | Failure Analysis for Automated Security Patch Generation. | Tri-axis evaluation of LLM patch generation correctness vs security vs functionality. | - | - |
 | [**LLM-Based Architectures for Automated Patching**](https://arxiv.org/abs/2603.01257) | Systematic study of LLM architecture choices for security patching. | Identifies architectural patterns that reliably improve patching. | - | - |
 | [**SWE-Bench Validity Study**](https://arxiv.org/abs/2602.04449) | The Case of SWE-Bench in Automated Program Repair. | Raises benchmark contamination and fair-comparison concerns. | - | - |
+| [**DebugRepair**](https://arxiv.org/abs/2604.19305) | Enhances LLM APR via self-directed debugging: test semantic purification removes noise from failing tests → simulated instrumentation inserts targeted debug statements → hierarchically iterative conversation-driven repair loop exploits collected runtime-state evidence (inner: patch refinement; outer: re-instrumentation). | GPT-3.5: 224 Defects4J bugs (+26.2% over SOTA); DeepSeek-V3: 295 bugs (59 more than 2nd best); +51.3% avg over vanilla across 5 LLMs. | - | Apr 21, 2026 |
+| [**LLM4C2Rust**](https://arxiv.org/abs/2604.15485) | RAG-assisted C/C++→Rust memory-safe transpilation framework: integrates LLM with SLM, segments C code in balanced blocks, retrieves Rust documentation and compiler error context; targets elimination of Raw Pointer Dereferences (RPDs) and Unsafe Type Casts (UTCs). | Complete elimination of RPDs and UTCs in several Coreutils targets; RAG pipeline improves both correctness and memory safety over baseline LLM transpilation. | - | Apr 16, 2026 |
 
 ## Static Analysis, Program Understanding, CPG, CFG & DFG
 
@@ -176,6 +205,7 @@ A curated list of awesome software engineering research papers, specifically foc
 | [**CodeBadger**](https://arxiv.org/abs/2603.24837) | Bridging Code Property Graphs and LMs for Program Analysis. | Joern CPG + LLM for slicing, taint tracking, data flow, call graph. | - | - |
 | [**Phoenix**](https://arxiv.org/abs/2602.01720) | Modular & Versatile C/C++ Pointer Analysis. | Flexible, configurable static analysis infrastructure. | - | - |
 | [**LLMSA**](https://arxiv.org/abs/2412.14399) | Compilation-free static analysis via Datalog + LLM neural relations. | - | - | - |
+| [**CoT for Control-Flow Deobfuscation**](https://arxiv.org/abs/2604.15390) | Applies Chain-of-Thought (CoT) prompting to binary/source control-flow deobfuscation tasks (Control Flow Flattening, Opaque Predicates, combined); LLM guided through explicit step-by-step reasoning tailored for code analysis rather than zero-shot deobfuscation. | GPT-5: ~+16% CFG reconstruction accuracy, ~+20.5% semantic preservation vs zero-shot; CoT consistently outperforms direct prompting across 3 obfuscation types. | - | Apr 16, 2026 |
 
 ## (Neuro) Symbolic Execution & Fuzzing
 
