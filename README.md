@@ -12,7 +12,20 @@ A curated list of awesome software engineering research papers, specifically foc
 
 ---
 
-## 🗓️ Today's Highlights — May 28, 2026
+## 🗓️ Today's Highlights — May 31, 2026
+
+Coverage: May 24-31, 2026.
+
+| # | Paper | Category | One-liner |
+|---|-------|----------|-----------|
+| 1 | [**ProgramBench**](https://arxiv.org/abs/2605.03546) | LLM & Code LM | Agents rebuild 200 software projects from scratch via behavioral testing; none fully resolve any task; best model (Opus 4.7) passes 95% tests on only 3% of tasks, revealing fundamental limitations in architectural decision-making |
+| 2 | [**FuzzingBrain V2**](https://arxiv.org/abs/2605.21779) | Vuln Detection | Multi-agent MCP-based system with Suspicious Point abstraction discovers 41 zero-days across 19 projects; deployed on 1,000+ OSS-Fuzz targets with 90% detection rate on AIxCC C/C++ dataset |
+| 3 | [**SymTEE**](https://arxiv.org/abs/2605.22058) | Neuro-Symbolic/Vuln | LLM-assisted symbolic execution for TEE validation vulnerability detection without hardware setup; 100% precision, 92.3% recall on 26 vulnerabilities at $0.05 per analysis via mock environment generation |
+| 4 | [**Agentic Agile-V**](https://arxiv.org/abs/2605.20456) | Agent/Process | Process framework converting conversational intent to verified artifacts via SCOPE-V (Specify-Constrain-Orchestrate-Prove-Evolve-Verify) loop; challenges vibe-coding paradigm with requirements, constraints, and evidence gates |
+
+---
+
+## 🗓️ Previous Highlights — May 28, 2026
 
 Coverage: May 21-28, 2026.
 
@@ -134,7 +147,9 @@ Coverage: May 21-28, 2026.
 | [**Efficient Code Provenance Tracking**](https://arxiv.org/abs/2605.28510) | SOURCETRACKER plus HYBRIDSOURCETRACKER retrieves candidate training snippets with a 300M code encoder, then re-ranks via exact Winnowing fingerprints for license/plagiarism provenance of LLM code. | On THESTACKV2-derived evaluation, HST matches Winnowing for 30-token adapted fragments and outperforms by up to 5.4% from 60-token windows with logarithmic-time search. | - | May 27, 2026 |
 | [**Do LLMs Favor Their Providers?**](https://arxiv.org/abs/2605.28515) | Introduces VIBench for vertical-integration bias in direct and agentic code generation across 20 provider-selectable software-integration scenarios. | Six of ten affiliated frontier models show significant direct bias up to +18.8 pp; agentic workflows amplify bias to +39.2 pp and persist early ecosystem choices up to 90.3%. | - | May 27, 2026 |
 | [**Enhancing Reliable Secure Code Generation**](https://arxiv.org/abs/2605.24300) | Mitigation-Aware Chain-of-Thought injects CWE-specific mitigation guidance and language safeguards into secure code generation across C, Java, and Python. | Reduces validated security findings by 57.6% on a 200-task primary set and 94.5% on LLMSecEval; CoT/zero-shot can increase C vulnerabilities. | - | May 22, 2026 |
+|| [**ProgramBench**](https://arxiv.org/abs/2605.03546) | Benchmark for full software project generation from scratch, requiring agents to architect and implement codebases matching reference executable behavior via behavioral test generation from fuzzing; 200 tasks spanning CLI tools to FFmpeg/SQLite/PHP. | Agents cannot fully resolve any task; best model (Claude Opus 4.7) passes 95% of tests on only 3% of tasks; models favor monolithic single-file implementations diverging from human code. | - | May 5, 2026 |
 
+## Agent/Agentic System for SE
 ## Agent/Agentic System for SE
 
 | Paper | Brief Summary | Key Result | Conf / Journal | Insights / Data |
@@ -169,7 +184,9 @@ Coverage: May 21-28, 2026.
 | [**LACUNA**](https://arxiv.org/abs/2605.28617) | Programming model for agents as typed recursive program holes: generated action code is type-checked against surrounding program, tool/data bounds, and all-or-nothing execution before effects occur. | Rejects 8.6% of BrowseComp-Plus generations before execution with 0.7 retries/query; solves 76.0% of 392 τ²-bench tasks, matching baseline performance. | - | May 27, 2026 |
 | [**KLineage**](https://arxiv.org/abs/2605.28213) | Learns verified GPU-kernel optimization skills by walking expert kernels backward through validation-gated simplifications, then replaying sound optimization conditions on new code. | On 5 expert workloads across 2 NVIDIA architectures, lineage-derived skills beat recent memory-based LLM-kernel baselines in final quality and efficiency under fixed budget. | - | May 27, 2026 |
 | [**SNARE / OverEager**](https://arxiv.org/abs/2605.28122) | Adaptive pipeline synthesizes benign coding-agent scenarios with scope traps and judge-free oracles to elicit out-of-scope actions that still complete the task. | Over 10,000 benign runs across 4 agents x 5 models, 19.51% trigger overeager behavior; framework explains 56% of variance vs. 21% for base model. | - | May 27, 2026 |
+|| [**Agentic Agile-V**](https://arxiv.org/abs/2605.20456) | Process framework converting conversational intent to verified artifacts via SCOPE-V (Specify-Constrain-Orchestrate-Prove-Evolve-Verify) loop; synthesizes evidence from agentic coding, GitHub adoption, productivity trials, issue-resolution, and hardware/RTL verification; proposes minimum input artifacts and risk-adaptive acceptance gates. | Rejects claim that autonomous code generation automatically improves outcomes; provides process taxonomy for software/firmware/hardware development with structured execution briefs and evidence-bundle acceptance model. | - | May 24, 2026 |
 
+## Vulnerability Detection & Fixing
 ## Vulnerability Detection & Fixing
 
 | Paper | Brief Summary | Key Result | Conf / Journal | Insights / Data |
@@ -206,6 +223,10 @@ Coverage: May 21-28, 2026.
 | [**AgentGuard**](https://arxiv.org/abs/2605.28071) | Attribute-based access-control framework for tool-use LLM agents with lightweight client integration, server-side single-tool/cross-tool inspections, visual policy specification, and runtime auditing. | Claims around 10 lines of client-side integration without changing agent execution logic; open-source prototype available. | - | May 27, 2026 |
 | [**MIRAGE**](https://arxiv.org/abs/2605.28116) | Context-aware prompt injection pipeline for mobile GUI agents that places attacker-controlled text into realistic user-generated-content regions of screenshots. | 1,111-sample benchmark over 10 apps and 11 attack intents finds all 5 evaluated VLM agents vulnerable at 23-30% ASR; realism is not correlated with attack success. | - | May 27, 2026 |
 | [**Agent Skill Ecosystem Threats**](https://arxiv.org/abs/2605.28588) | Technical report analyzing real AI-agent skills from major marketplaces for malicious payloads and critical security issues. | Finds 76 confirmed malicious payloads among 3,984 skills; 13.4% contain at least one critical issue and at least 8 malicious skills remained publicly available at publication. | - | May 27, 2026 |
+|| [**FuzzingBrain V2**](https://arxiv.org/abs/2605.21779) | Multi-agent MCP-based vulnerability detection system with Suspicious Point (SP) abstraction for optimal granularity between line and function level; integrates with Google OSS-Fuzz for reproducible verification; employs Direction Generator, SP Generator/Verifier, and dual-layer fuzzing (global + SP-targeted). | Discovered 41 zero-day vulnerabilities across 19 open-source projects (29 confirmed, 2 assigned CVE); 90% detection rate on AIxCC 2025 C/C++ dataset; deployed on 1,000+ OSS-Fuzz projects. | - | May 28, 2026 |
+|| [**SymTEE**](https://arxiv.org/abs/2605.22058) | LLM-assisted symbolic execution for detecting missing input validation in TEE applications without hardware setup; AST-based analysis extracts vulnerable slices, LLM generates KLEE-compatible mock environments and security oracles, KLEE explores paths for concrete inputs violating assertions. | 100% precision, 92.3% recall on 26 vulnerabilities (11 real-world + 15 synthetic); average cost $0.05 per analysis; eliminates need for complex TEE runtime setups and specialized hardware. | - | May 22, 2026 |
+
+## TEERepair
 | [**TEERepair**](https://arxiv.org/abs/2605.22087) | Automated repair for TEE partitioning issues using a DSL of security repair rules, LLM semantic reasoning for context-aware patches, and generated validation clients. | 87.6% repair success on PartitioningE-Bench; 5 real repair PRs submitted, 2 confirmed and merged. | FSE 2026 | May 21, 2026 |
 | [**Enhancing Reliable Secure Code Generation**](https://arxiv.org/abs/2605.24300) | MA-CoT framework embeds CWE mitigation guidance and language-aware safeguards into LLM code generation, then validates via static analysis plus expert review. | Cuts findings 57.6% on the primary dataset and 94.5% on LLMSecEval; residual risk clusters in OS/toolchain hardening patterns. | - | May 22, 2026 |
 
