@@ -35,6 +35,16 @@ Coverage: May 24-31, 2026.
 | 2 | [**FuzzingBrain V2**](https://arxiv.org/abs/2605.21779) | Vuln Detection | Multi-agent MCP-based system with Suspicious Point abstraction discovers 41 zero-days across 19 projects; deployed on 1,000+ OSS-Fuzz targets with 90% detection rate on AIxCC C/C++ dataset |
 | 3 | [**SymTEE**](https://arxiv.org/abs/2605.22058) | Neuro-Symbolic/Vuln | LLM-assisted symbolic execution for TEE validation vulnerability detection without hardware setup; 100% precision, 92.3% recall on 26 vulnerabilities at $0.05 per analysis via mock environment generation |
 | 4 | [**Agentic Agile-V**](https://arxiv.org/abs/2605.20456) | Agent/Process | Process framework converting conversational intent to verified artifacts via SCOPE-V (Specify-Constrain-Orchestrate-Prove-Evolve-Verify) loop; challenges vibe-coding paradigm with requirements, constraints, and evidence gates |
+
+---
+
+## 🗓️ Previous Highlights — May 28, 2026
+
+Coverage: May 21-28, 2026.
+
+| # | Paper | Category | One-liner |
+|---|-------|----------|-----------|
+| 1 | [**Refactoring Runaway**](https://arxiv.org/abs/2605.22526) | Agent/SE | 3,691 Multi-SWE-bench patches: tangled refactorings reduce compilability; refactoring-aware refinement lifts compilability 19.34% -> 38.33% |
 | 2 | [**RAMP**](https://arxiv.org/abs/2605.27492) | Agent Eval | Production-style compiler workflows expose long-horizon agent collapse: 100% initial-stage completion falls to 20% final-stage, with no full-pipeline completions |
 | 3 | [**Spec-Agent**](https://arxiv.org/abs/2605.27531) | Static Analysis/Verification | Agentic separation-logic spec synthesis for million-LOC C++ codebases; 85% valid specs, no FPs under fuzzing/expert validation, 10x lower token cost than Claude Code Opus 4.6 |
 | 4 | [**EviACT**](https://arxiv.org/abs/2605.27238) | Program Repair | Evidence-to-action APR coordinates retrieval, compile, and test gates; +1.6-6.0 pp resolve rate with 70.1-88.6% lower reported per-bug API cost |
