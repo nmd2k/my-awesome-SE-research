@@ -1,3 +1,8 @@
+# June 7 2026
+- https://arxiv.org/abs/2606.06324
+- https://arxiv.org/abs/2606.00669
+- https://arxiv.org/abs/2605.30105
+- https://arxiv.org/abs/2605.13357
 # May 31 2026
 - https://arxiv.org/abs/2605.03546
 - https://arxiv.org/abs/2605.20456
