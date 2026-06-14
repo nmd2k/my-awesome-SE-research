@@ -12,16 +12,17 @@ A curated list of awesome software engineering research papers, specifically foc
 
 ---
 
-## 🗓️ Today's Highlights — June 7, 2026
+## 🗓️ Today's Highlights — June 14, 2026
 
-Coverage: June 1-7, 2026.
+Coverage: June 8-14, 2026.
 
 | # | Paper | Category | One-liner |
 |---|-------|----------|-----------|
-| 1 | [**HarnessFix**](https://arxiv.org/abs/2606.06324) | Agent/Harness | Trace-guided framework diagnoses agent failures and repairs harnesses via HTIR (Harness-aware Trace IR); maps failures to ETCLOVG layers; improves held-out test performance 15.2%–50.0% over initial harnesses across SWE-Bench, Terminal-Bench, GAIA, AppWorld |
-| 2 | [**NeuroLog**](https://arxiv.org/abs/2606.00669) | Neuro-Symbolic/Vuln | Compile-free vulnerability discovery pipeline: LLM-extracted Datalog facts + SMT solver + crash synthesis; rediscovers 8 CVEs (incl. CVSS-9.8 curl heap overflow) and surfaces 5 new memory-safety bugs on libarchive with $0.005 LLM cost per target |
-| 3 | [**EvoRepair**](https://arxiv.org/abs/2605.30105) | Vuln Repair | Experience-based self-evolving AVR framework: cyclic learn-and-repair process accumulates domain-specific repair knowledge; reaches 93.47% on PATCHEVAL, 87.00% on SEC-bench; outperforms LoopRepair by +39.56% and +33.50% respectively |
-| 4 | [**AI Harness Engineering**](https://arxiv.org/abs/2605.13357) | Agent/Harness | Formalizes runtime substrate mediating model-harness-environment systems; defines 11 component responsibilities (task, context, tools, memory, state, observability, attribution, verification, permissions, auditing, intervention); H0-H3 ladder enables controlled harness ablation with trace-based evaluation |
+| 1 | [**HarnessFix**](https://arxiv.org/abs/2606.06324) | Agent/Harness | Trace-guided framework diagnoses agent failures and repairs harnesses via HTIR; maps failures to ETCLOVG layers; improves held-out test performance 15.2%–50.0% over initial harnesses across SWE-Bench, Terminal-Bench, GAIA, AppWorld |
+| 2 | [**Socratic-SWE**](https://arxiv.org/abs/2606.07412) | Agent/SE | Self-evolution framework distills historical solving traces into Agent Skill Registry to generate targeted repair tasks; reaches 50.40% on SWE-bench Verified (+7.80 pts) and +4.50 pts on Terminal-Bench 2.0 |
+| 3 | [**SPOQ**](https://arxiv.org/abs/2606.03115) | Agent/Multi-Agent | Wave-based topological dispatch + dual validation gates + Human-as-Agent for multi-agent coordination; 1.4× speedup, reduces defects 0.34→0.20 per task, 99.87% test pass rate on 1,822 real tasks |
+| 4 | [**NeuroLog**](https://arxiv.org/abs/2606.00669) | Neuro-Symbolic/Vuln | Compile-free vulnerability discovery: LLM-extracted Datalog facts + SMT solver + crash synthesis; rediscovers 8 CVEs (CVSS-9.8 curl heap overflow) + 5 new memory-safety bugs on libarchive with $0.005 cost |
+| 5 | [**FLARE**](https://arxiv.org/abs/2606.03852) | LLM & Code LM | Fine-grained diagnostic feedback via line-level suspiciousness prediction; targeted code refinement; +1.72–7.42% improvement over baselines; 67% Top-1 and 89% Top-10 localization accuracy |
 
 ---
 
