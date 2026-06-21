@@ -12,16 +12,16 @@ A curated list of awesome software engineering research papers, specifically foc
 
 ---
 
-## 🗓️ Today's Highlights — June 7, 2026
+## 🗓️ Today's Highlights — June 21, 2026
 
-Coverage: June 1-7, 2026.
+Coverage: June 14-21, 2026.
 
 | # | Paper | Category | One-liner |
 |---|-------|----------|-----------|
-| 1 | [**HarnessFix**](https://arxiv.org/abs/2606.06324) | Agent/Harness | Trace-guided framework diagnoses agent failures and repairs harnesses via HTIR (Harness-aware Trace IR); maps failures to ETCLOVG layers; improves held-out test performance 15.2%–50.0% over initial harnesses across SWE-Bench, Terminal-Bench, GAIA, AppWorld |
-| 2 | [**NeuroLog**](https://arxiv.org/abs/2606.00669) | Neuro-Symbolic/Vuln | Compile-free vulnerability discovery pipeline: LLM-extracted Datalog facts + SMT solver + crash synthesis; rediscovers 8 CVEs (incl. CVSS-9.8 curl heap overflow) and surfaces 5 new memory-safety bugs on libarchive with $0.005 LLM cost per target |
-| 3 | [**EvoRepair**](https://arxiv.org/abs/2605.30105) | Vuln Repair | Experience-based self-evolving AVR framework: cyclic learn-and-repair process accumulates domain-specific repair knowledge; reaches 93.47% on PATCHEVAL, 87.00% on SEC-bench; outperforms LoopRepair by +39.56% and +33.50% respectively |
-| 4 | [**AI Harness Engineering**](https://arxiv.org/abs/2605.13357) | Agent/Harness | Formalizes runtime substrate mediating model-harness-environment systems; defines 11 component responsibilities (task, context, tools, memory, state, observability, attribution, verification, permissions, auditing, intervention); H0-H3 ladder enables controlled harness ablation with trace-based evaluation |
+| 1 | [**Dialogue-SWEBench**](https://arxiv.org/abs/2606.13995) | Agent Eval | Multi-turn interactive coding agent benchmark: agents resolve SWE problems through natural language dialogue; schema-guided agent 46.9% resolve rate; strong coding ≠ dialogue ability (GPT-5 mini rivals GPT-5 at fraction of cost) |
+| 2 | [**StaminaBench**](https://arxiv.org/abs/2606.19613) | Agent Eval | Stress-test coding agents over 100 interaction turns: modify REST API across procedurally-generated changes (up to 6K lines); all models fail within 5–6 turns; harness quality drives 6× performance variance; feedback+retry improves 12× |
+| 3 | [**Surgical Repair of Insecure Code**](https://arxiv.org/abs/2604.16697) | LLM & Code LM | Format-reliability gap: security encoded early but inert; per-CWE steering vectors reduce insecure gen 74% (6.7%→73.3%); generalizes 5 models, 3 architectures, 6 CWEs; 88.6% secure code with <3.1% latency overhead |
+| 4 | [**SecureForge**](https://arxiv.org/abs/2605.08382) | LLM & Code LM | Automated prompt optimization for vulnerability reduction: identifies vulnerable prompts, amplifies via sampling, iteratively optimizes; up to 48% CWE rate reduction while maintaining test performance |
 
 ---
 
@@ -35,6 +35,21 @@ Coverage: May 24-31, 2026.
 | 2 | [**FuzzingBrain V2**](https://arxiv.org/abs/2605.21779) | Vuln Detection | Multi-agent MCP-based system with Suspicious Point abstraction discovers 41 zero-days across 19 projects; deployed on 1,000+ OSS-Fuzz targets with 90% detection rate on AIxCC C/C++ dataset |
 | 3 | [**SymTEE**](https://arxiv.org/abs/2605.22058) | Neuro-Symbolic/Vuln | LLM-assisted symbolic execution for TEE validation vulnerability detection without hardware setup; 100% precision, 92.3% recall on 26 vulnerabilities at $0.05 per analysis via mock environment generation |
 | 4 | [**Agentic Agile-V**](https://arxiv.org/abs/2605.20456) | Agent/Process | Process framework converting conversational intent to verified artifacts via SCOPE-V (Specify-Constrain-Orchestrate-Prove-Evolve-Verify) loop; challenges vibe-coding paradigm with requirements, constraints, and evidence gates |
+
+---
+
+## 🗓️ Previous Highlights — June 7, 2026
+
+Coverage: June 1-7, 2026.
+
+| # | Paper | Category | One-liner |
+|---|-------|----------|-----------|
+| 1 | [**HarnessFix**](https://arxiv.org/abs/2606.06324) | Agent/Harness | Trace-guided framework diagnoses agent failures and repairs harnesses via HTIR (Harness-aware Trace IR); maps failures to ETCLOVG layers; improves held-out test performance 15.2%–50.0% over initial harnesses across SWE-Bench, Terminal-Bench, GAIA, AppWorld |
+| 2 | [**NeuroLog**](https://arxiv.org/abs/2606.00669) | Neuro-Symbolic/Vuln | Compile-free vulnerability discovery pipeline: LLM-extracted Datalog facts + SMT solver + crash synthesis; rediscovers 8 CVEs (incl. CVSS-9.8 curl heap overflow) and surfaces 5 new memory-safety bugs on libarchive with $0.005 LLM cost per target |
+| 3 | [**EvoRepair**](https://arxiv.org/abs/2605.30105) | Vuln Repair | Experience-based self-evolving AVR framework: cyclic learn-and-repair process accumulates domain-specific repair knowledge; reaches 93.47% on PATCHEVAL, 87.00% on SEC-bench; outperforms LoopRepair by +39.56% and +33.50% respectively |
+| 4 | [**AI Harness Engineering**](https://arxiv.org/abs/2605.13357) | Agent/Harness | Formalizes runtime substrate mediating model-harness-environment systems; defines 11 component responsibilities (task, context, tools, memory, state, observability, attribution, verification, permissions, auditing, intervention); H0-H3 ladder enables controlled harness ablation with trace-based evaluation |
+
+
 
 ---
 
