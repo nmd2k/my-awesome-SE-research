@@ -12,7 +12,28 @@ A curated list of awesome software engineering research papers, specifically foc
 
 ---
 
-## 🗓️ Today's Highlights — June 7, 2026
+## 🗓️ Today's Highlights — July 12, 2026
+
+Coverage: July 5–12, 2026.
+
+|| # | Paper | Category | One-liner |
+||---|-------|----------|-----------|
+|| 1 | [**SCOPE**](https://arxiv.org/abs/2607.05810) | LLM & Code LM | Prover-initialized subgoal critic guides code generation with structured feedback; 39.4% pass@1 LiveCodeBench V6 (+2.8 pp vs. Reflexion), 42.6% BigCodeBench Hard (+6.1 pp); more localized corrections than unstructured critique |
+|| 2 | [**TTHE: Test-Time Harness Evolution**](https://arxiv.org/abs/2607.08124) | Agent/Harness | Evolves executable agent harness at test time from unlabeled traces without model weight updates; persistent, inspectable improvements across text-to-SQL, competitive programming, SWE, data-science, and tool-use |
+|| 3 | [**TrajSpec**](https://arxiv.org/abs/2607.07882) | Vuln Repair | Refines sparse bug reports into repository-supported specifications via trajectory-collected evidence; SWE-Bench Lite: 41%→59.67% (GPT-5-mini), 54.67%→64.33% (MiniMax M2.5) |
+|| 4 | [**LogicHunter**](https://arxiv.org/abs/2607.06195) | Testing & Fuzzing | Specification-aware fuzzing of LangChain/LlamaIndex/CrewAI with Agentic Oracle; 40 bugs found (30 confirmed, 26 fixed); 91.17% oracle precision vs. 29.27% best passive baseline |
+|| 5 | [**Aria: Harnessing Code Agents for Automatic Software Verification**](https://arxiv.org/abs/2607.06341) | Agentic/Verification | Wraps general code agent in hard-constraint harness for Coq proof generation; proves all 4,257 Iris core lemmas + 217 Rust stdlib lemmas; 72 unported iris-lean lemmas (prior LLM provers ~1/8) |
+|| 6 | [**KAT-Coder-V2.5**](https://arxiv.org/abs/2607.05471) | LLM & Code LM | Agentic coding model via AutoBuilder sandbox, harness randomization, asymmetric PPO, multi-teacher distillation; best agentic tool-use on PinchBench, second only to Opus 4.8 on repo-level SWE |
+|| 7 | [**The Harness Effect: Token Economics of Enterprise Agentic AI**](https://arxiv.org/abs/2607.06906) | Agent/Harness | Controlled swap of orchestration layer shows harness matters more than model: 41% cost cut, 44% wall-clock cut, 38% token reduction at quality parity across 6 models |
+|| 8 | [**Auto: The AGI Compiler**](https://arxiv.org/abs/2607.04542) | Agent/Harness | Compiles witnessed-deterministic spans from live agent runs into WASM cognition binaries with conformal guards; 87.1% deterministic spans, 6.4× cost reduction ($59→$2 per item) at 96.9% parity |
+|| 9 | [**Specification Grounding Drives Test Effectiveness for LLM Code**](https://arxiv.org/abs/2607.06636) | Testing | Spec-grounded test design isolated from test existence shows +38 pp correct code with spec checklist; replicates across Claude, GPT-5.3-codex, Gemini 3.5 Flash |
+|| 10 | [**SynapseFlow: State Machine Guided Harness Automatic Generation**](https://arxiv.org/abs/2607.07007) | Testing & Fuzzing | LLM fuzz-harness generator using structural flow graphs and staged rollback; 3.07×, 1.71×, 4.26× branch coverage vs. OSS-Fuzz-Gen, CKGFuzzer, PromeFuzz; 5 CVEs found |
+|| 11 | [**RustMizan: Compilable Benchmarking for Rust Vulnerabilities**](https://arxiv.org/abs/2607.04729) | Vuln Detection | Compilable Rust vuln benchmark with CWE labels and semantics-preserving mutants; frontier agentic models: 56–65% binary classification but ~20% line F1; adversarial cues drop F1 ~27% |
+|| 12 | [**DeepSWE: Measuring Frontier Coding Agents on Original Long-Horizon Tasks**](https://arxiv.org/abs/2607.07946) | Agent/Harness | 113 original repo tasks with hand-written functional verifiers; LLM judge disagrees with verifier 1.4% vs. 32.4% for SWE-Bench tests; wider score separation among frontier agents |
+
+---
+
+## 🗓️ Previous Highlights — June 7, 2026
 
 Coverage: June 1-7, 2026.
 
