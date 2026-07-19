@@ -1,3 +1,20 @@
+# July 18 2026
+- https://arxiv.org/abs/2607.13921
+- https://arxiv.org/abs/2607.02390
+- https://arxiv.org/abs/2603.29957
+- https://arxiv.org/abs/2607.02684
+- https://arxiv.org/abs/2606.05608
+- https://arxiv.org/abs/2607.13285
+- https://arxiv.org/abs/2607.02436
+- https://arxiv.org/abs/2607.14456
+- https://arxiv.org/abs/2607.00820
+- https://arxiv.org/abs/2606.22647
+- https://arxiv.org/abs/2605.01769
+- https://arxiv.org/abs/2026.findings-acl.1339
+- https://arxiv.org/abs/2607.08949
+- https://arxiv.org/abs/2607.07007
+- https://arxiv.org/abs/2508.21302
+- https://arxiv.org/abs/2606.29108
 # June 7 2026
 - https://arxiv.org/abs/2606.06324
 - https://arxiv.org/abs/2606.00669
