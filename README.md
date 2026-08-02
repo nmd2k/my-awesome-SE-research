@@ -12,7 +12,28 @@ A curated list of awesome software engineering research papers, specifically foc
 
 ---
 
-## 🗓️ Today's Highlights — June 7, 2026
+## 🗓️ Today's Highlights — August 2, 2026
+
+Coverage: July 27 - August 2, 2026.
+
+Curated insights from 11 high-quality papers across repository-level code generation, agentic systems, vulnerability detection, and LLM-based testing.
+
+| # | Paper | Category | One-liner |
+|---|-------|----------|-----------|
+| 1 | [**TraceDev**](https://arxiv.org/abs/2607.18886) | Agent/LLM | Five role-specific agents with heterogeneous traceability graphs linking requirements, design, code; 53.63% on ETOUR, 56.82% on SMOS, outperforming baselines by 186-340% |
+| 2 | [**LLM-as-Code**](https://arxiv.org/abs/2606.15874) | Agent Architecture | Program-driven agent where control flow is deterministic, LLM is adaptive component; DAG-structured context, eliminates token explosion and control-flow hallucination in visual sequences |
+| 3 | [**ProjAgent**](https://arxiv.org/abs/2607.08691) | LLM & Code Gen | Procedural similarity as explicit retrieval signal; combines with semantic/lexical retrieval + static-analysis feedback; 41.14% Pass@1 on REPOCOD |
+| 4 | [**Bulkhead**](https://arxiv.org/abs/2607.12723) | Vuln Detection & Repair | LLM+model-checking for container path traversal; multi-dimensional patterns + call-chain analysis; model-checking-guided patches with PoC validation |
+| 5 | [**LeanGuard**](https://arxiv.org/abs/2607.03963) | Neuro-Symbolic Vuln Detection | Separates roles: LLM prunes AST facts, Lean 4 discharges safety obligations; handles null/UAF/double-free; prevents premature obligation discharge |
+| 6 | [**VulAgentRL**](https://arxiv.org/abs/2607.26656) | Agent & Vuln Detection | CPG as policy tool + reward verifier; 7B model learns interprocedural context with checkable evidence; 0.378 pairwise-correct, 0.633 accuracy |
+| 7 | [**AutoTrace**](https://arxiv.org/abs/2607.12058) | Vuln Analysis & Localization | Five-stage agentic pipeline with CPG gates; locates interprocedural triggers distinct from vulnerable functions through semantic-aware slicing |
+| 8 | [**DiffTestGen**](https://arxiv.org/abs/2607.16024) | Program Testing | Change-directed differential testing with static call-graph + union coverage; 78.2% behavioral difference exposure, 90.7% coverage, 99 additional regressions detected |
+| 9 | [**CATGen**](https://arxiv.org/abs/2607.19682) | LLM Test Generation | Deterministic program analysis for explicit context; test-skeleton via templates; post-processing rules improve compilation robustness |
+| 10 | [**TestEvo-Bench**](https://arxiv.org/abs/2607.02469) | Benchmark: Test Co-Evolution | Live benchmark with 746 test-gen + 509 test-update tasks; execution-grounded metrics; SOTA up to 77.5% on gen, 74.6% on update |
+
+---
+
+## 🗓️ Previous Highlights — June 7, 2026
 
 Coverage: June 1-7, 2026.
 
