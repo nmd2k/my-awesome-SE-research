@@ -12,7 +12,28 @@ A curated list of awesome software engineering research papers, specifically foc
 
 ---
 
-## 🗓️ Today's Highlights — June 7, 2026
+## 🗓️ Today's Highlights — August 9, 2026
+
+Coverage: August 2-9, 2026.
+
+| # | Paper | Category | One-liner |
+|---|-------|----------|-----------|
+| 1 | [**Unreliable in Practice?**](https://arxiv.org/abs/2608.00661) | LLM & Code LM | Largest error characterization: 86,726 compilation/runtime errors across 7 LLMs, 4 languages; even SOTA omits input validation & memory-safety checks; critical reliability/security issues persist despite model scale |
+| 2 | [**Self-Evolving Coding Agents**](https://arxiv.org/abs/2608.03392) | Agent/Agentic | Comprehensive survey: agents improve via persistent feedback-driven runtime; accumulate skills & verifier routes; executable feedback + repo context enable adaptation; safety, cost, generalization remain challenging |
+| 3 | [**VulnGym**](https://arxiv.org/abs/2608.02001) | Vuln Detection | Repository-level benchmark: 184 real GitHub advisories, 408 entries with fine-grained traces; 71.2% are business-logic flaws unmatchable by regex; exposes agent limitations in autonomous exploration |
+| 4 | [**AgenticRepair**](https://arxiv.org/abs/2607.29422) | Vuln Repair | Multi-faceted context: program structure + runtime execution + commit history improves C/C++ repair to 73% (vs 59% baseline); +30% over strongest prior baselines; unified pipeline scales agentic repair |
+| 5 | [**PoVGen**](https://arxiv.org/abs/2608.04217) | Neuro-Symbolic/Vuln | Proof-of-vulnerability via fine-tuned open-weight models + SMT: 78.98% success (vs 50.2% fuzzing, 2.45% symbolic exec); $0 API cost; 74.80% on 250 real CVEs, uncovering 5 previously unreported bugs |
+| 6 | [**RefactorAssist**](https://arxiv.org/abs/2608.00924) | Agent/SE | Test-guided agentic refactoring: static repair + LLM iterative refinement with error logs; 94.2% cumulative pass rate; root causes: context misunderstanding (24.3%), incorrect renaming (15.3%), incomplete code (11.3%) |
+| 7 | [**DyRetriever**](https://arxiv.org/abs/2608.01927) | LLM & Code LM | Efficient context via partial dependency graphs built on-demand; LLM validates function relevance; +25.63% Pass@1 CoderEval, +59.73% DevEval, 7.4× faster than static graph baselines |
+| 8 | [**Semantic Optimization**](https://arxiv.org/abs/2608.03983) | LLM & Code LM | LLMs recover semantic optimizations compilers miss: 94.8% artifact correctness, 83.3% speedup; LLM as speculative complement to compiler analysis for performance-oriented synthesis |
+| 9 | [**Socratic-SWE**](https://arxiv.org/abs/2606.07412) | Agent/SE | Self-evolving via trace distillation: historical traces → skill registry → targeted repair; +7.80 pp SWE-bench Verified, +4.50 pp Terminal-Bench after 3 iterations |
+| 10 | [**Argus**](https://arxiv.org/html/2608.05144) | Agent/SE | Persistent runtime: Manager/Planner/Engineer/Reviewer with verification-gated skill admission; ~78% SWE-Bench Pro (vs 59% Direct Copilot), 21% fewer tokens after evolution |
+| 11 | [**EA-Graph**](https://arxiv.org/abs/2608.04278) | Agent/SE | Artifact-anchored verification: claims anchored to content, withdrawn if support drifts; prevents fabricated claims under upstream changes; improves smaller models' provability judgment |
+| 12 | [**KeaRepair**](https://arxiv.org/html/2607.00820) | Vuln Repair | Knowledge-Enhanced AVR: view-specific vulnerability knowledge + verified program facts + exemplar retrieval; 83.64% repair rate; fixes 9 unique bugs SOTA misses |
+
+---
+
+## 🗓️ Previous Highlights — June 7, 2026
 
 Coverage: June 1-7, 2026.
 
