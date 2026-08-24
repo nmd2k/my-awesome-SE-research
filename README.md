@@ -12,7 +12,28 @@ A curated list of awesome software engineering research papers, specifically foc
 
 ---
 
-## 🗓️ Today's Highlights — June 7, 2026
+## 🗓️ Today's Highlights — August 23, 2026
+
+Coverage: August 17-23, 2026.
+
+| # | Paper | Category | One-liner |
+|---|-------|----------|-----------|
+| 1 | [**Repo0**](https://arxiv.org/abs/2608.19854) | LLM & Code LM | Design-driven zero-to-all code generation framework: Dual-DAG architectural state evolves requirements and components under modularity guidance; achieves +20pp functionality coverage and +30pp pass rate vs RPG baseline on real repositories |
+| 2 | [**OctoLong**](https://arxiv.org/abs/2608.05141) | LLM & Code LM | Cross-repository dependency-rich code context pipeline for long-context training; 50B-token mid-training corpus with 6.2B OctoLong tokens improves long-range retrieval, state tracking, and repository-level code understanding |
+| 3 | [**GraphAlignCoder**](https://arxiv.org/abs/2608.11394) | LLM & Code LM | Program-proof graph alignment framework transfers formal correctness structure into code generation; +31.6% on LiveCodeBench v6, +43.8% on BigCodeBench Hard vs CodeRL through structural injection and verification consolidation |
+| 4 | [**Engineering Reliable Coding Agents**](https://arxiv.org/abs/2608.13867) | Agent/Agentic System | Monograph synthesizing 164 scholarly + 100 practitioner records; frameworks for 206 reliability practices; dependency-chain methodology distinguishes model capability from infrastructure effects with gated practices and recovery protocols |
+| 5 | [**Ouroboros**](https://arxiv.org/abs/2608.08311) | Agent/Agentic System | Self-developing agent harness with reviewed core evolution: tools, prompts, implementation improve through committed work; 86.97% on Terminal-Bench 2.1, 90.69% OSWorld-Verified, 0.2301 CL-Bench state-of-the-art; 161-day public deployment with human-governed evolution |
+| 6 | [**Specification-first Convergence**](https://arxiv.org/abs/2608.12440) | Agent/Agentic System | Large-scale architectural refactoring (717K lines, 3,648 files) without human code review via spec-first protocol; 31 audit cycles corrected 201 defects pre-execution; cost $2,430, elapsed 3 days |
+| 7 | [**Vul4Py**](https://arxiv.org/abs/2608.00692) | Vulnerability Detection & Fixing | Python AVR benchmark with paired exploit + functional oracles across 100 CVEs; agents (OpenHands 41/100) dominate LLMs (4/100) and specialized tools (2/100); paired oracle rejects 15% of exploit-only-accepted patches |
+| 8 | [**Grounding AI Agents in Contracts**](https://arxiv.org/abs/2608.17177) | Program Testing | Spec-driven test generation with pre/post-conditions and undefined-behavior documentation; +9.8pp bug detection, +2.5pp branch coverage vs baseline on Google production bugs; 77.8% agent superiority vs baseline, 56.7% vs human tests |
+| 9 | [**TDD-Agent**](https://arxiv.org/abs/2608.16742) | Program Testing | Test-first reasoning with iterative dual-track refinement; generates executable tests before implementation, evolving both code and tests with execution feedback; consistent improvements on LiveCodeBench and RepoEval |
+| 10 | [**PyFlow**](https://arxiv.org/abs/2608.07026) | Static Analysis | IFDS-based interprocedural dataflow framework for Python; achieves highest recall (48.1%) and F1-score (57.5%) on real-world benchmark vs 8 existing tools (CodeQL, Pysa, Semgrep, Snyk, etc.) |
+| 11 | [**Directed Neuro-Symbolic Stochastic Execution (DNSSE)**](https://arxiv.org/abs/2608.07947) | Neuro-Symbolic/Fuzzing | Hybrid testing couples LLM schedule prediction with symbolic constraint solving and stochastic mutation for distributed AI programs; 2.9× more concurrency bugs (73 vs 25), 91.6% branch coverage vs 68.6% baseline |
+| 12 | [**Agolic**](https://arxiv.org/abs/2608.06397) | Neuro-Symbolic/Fuzzing | Agentic planning for symbolic execution: LLM-based agent chooses/configures bounded SE runs using source code and coverage history; 3× branch coverage extension over baseline SE |
+
+---
+
+## 🗓️ Previous Highlights — June 7, 2026
 
 Coverage: June 1-7, 2026.
 
