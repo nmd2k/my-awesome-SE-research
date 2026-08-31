@@ -8,6 +8,33 @@ Each paper has an atomic note in [`papers/`](papers/) with its details. The READ
 If you want to contribute, please read [this](CONTRIBUTING.md).
 
 ---
+Table of Content:
+- [Books](#Books)
+- [Talks](#Talks)
+- [Papers](#Papers)
+    - [AI4SE](#ai4se)
+        - [Code LM](#Code-LM)
+        - [Agentic SE](#agentic-se)
+    - [Software Understanding](#software-understanding)
+        - [Program Understanding](#program-understanding)
+        - [Code Review](#code-review)
+        - [Architecture & Design](#architecture--design)
+    - [Software Validation](#software-validation)
+        - [Program Testing](#program-testing)
+        - [Neuro-Symbolic](#neuro-symbolic)
+        - [Fuzzing & Dynamic Analysis](#fuzzing--dynamic-analysis)
+    - [Software Security](#software-security)
+        - [Vulnerability Detection](#vulnerability-detection)
+        - [Program Static Analysis](#program-static-analysis)
+        - [Secure Software Generation](#secure-software-generation)
+    - [Maintenance & Evolution](#maintenance--evolution)
+        - [Program Repair](#program-repair)
+        - [Refactoring & Migration](#refactoring--migration)
+    - [Empirical SE & Benchmarks](#empirical-se--benchmarks)
+        - [Benchmarks & Datasets](#benchmarks--datasets)
+        - [Empirical Studies](#empirical-studies)
+
+---
 ## Books
 * 
 
