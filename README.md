@@ -247,6 +247,7 @@ Table of Content:
 - [Detecting Call Graph Unsoundness without Ground Truth](papers/arxiv.2604.00885.md)
 - [Filament: Denning-Style Information Flow Control for Rust](papers/arxiv.2604.14357.md)
 - [NESA: Relational Neuro-Symbolic Static Program Analysis](papers/arxiv.2412.14399.md)
+- [Squeezing Juicy Variant Bugs Out of Modern Browsers](papers/usenix.2608.zhengSqueezingJuicyVariant.md)
 - [Phoenix: A Modular and Versatile Framework for C/C++ Pointer Analysis](papers/arxiv.2602.01720.md)
 - [PyFlow: An Inter-procedural Static Analysis Framework for Python](papers/arxiv.2608.07026.md)
 
