@@ -67,6 +67,7 @@ Table of Content:
 - [ProjAgent: Procedural Similarity Retrieval for Repository-Level Code Generation](papers/arxiv.2607.08691.md)
 - [SCOPE: Leveraging Subgoal Critiques for Code Generation](papers/arxiv.2607.05810.md)
 - [SecureForge: Finding and Preventing Vulnerabilities in LLM-Generated Code via Prompt Optimization](papers/arxiv.2605.08382.md)
+- [Self-Spec Verifiable Code Generation](papers/arxiv.2609.39568.md) <img height="20" src="img/new.png" alt="new">
 - [Surgical Repair of Insecure Code Generation in LLMs](papers/arxiv.2604.16697.md)
 - [Think Anywhere in Code Generation](papers/arxiv.2603.29957.md)
 - [Toward Executable Repository-Level Code Generation via Environment Alignment](papers/arxiv.2604.03622.md)
@@ -105,6 +106,7 @@ Table of Content:
 - [Harness Handbook: Making Evolving Agent Harnesses Readable,Navigable, and Editable](papers/arxiv.2607.13285.md)
 - [Inside the Scaffold: A Source-Code Taxonomy of Coding Agent Architectures](papers/arxiv.2604.03515.md)
 - [LACUNA: Safe Agents as Recursive Program Holes](papers/arxiv.2605.28617.md)
+- [Learning When and How to Intervene: A Hindsight-Distilled Sentinel for Coding Agents](papers/arxiv.2609.39957.md) <img height="20" src="img/new.png" alt="new">
 - [Learning When to Optimize: Verified Optimization Skills from Expert GPU-Kernel Lineages](papers/arxiv.2605.28213.md)
 - [LLM-as-Code: Agentic Programming for Agent Harness](papers/arxiv.2606.15874.md)
 - [Near-Miss: Latent Policy Failure Detection in Agentic Workflows](papers/arxiv.2603.29665.md)
@@ -164,6 +166,7 @@ Table of Content:
 - [MIST-RL: Mutation-based Incremental Suite Testing via Reinforcement Learning](papers/arxiv.2603.01409.md)
 - [Multi-Agent LLM-based Metamorphic Testing for REST APIs](papers/arxiv.2605.28321.md)
 - [Names Are All You Need: Effective and Safe Regression Test Selection for Python](papers/arxiv.2605.25356.md)
+- [NEUROTESTGEN: Neuro-Symbolic Guided Test Generation with Large Language Models](papers/arxiv.2609.30178.md) <img height="20" src="img/new.png" alt="new">
 - [OptiLoop: Coordination-in-the-Loop Verification and Repair for LLM-Generated Optimization Agents](papers/arxiv.2605.27630.md)
 - [SPARC: Scenario Planning and Reasoning for Automated C Unit Test Generation](papers/arxiv.2602.16671.md)
 - [Specification Grounding Drives Test Effectiveness for LLM Code](papers/arxiv.2607.06636.md)
@@ -189,7 +192,7 @@ Table of Content:
 - [Neuro-Symbolic Proof-of-Vulnerability Generation with Open-Weight Models](papers/arxiv.2608.04217.md)
 - [Neuro-Symbolic Reasoning for Vulnerability Detection](papers/arxiv.2607.03963.md)
 - [QRS: A Rule-Synthesizing Neuro-Symbolic Triad for Autonomous Vulnerability Discovery](papers/arxiv.2602.09774.md)
-- [Schwarz: Solver-Aware Agentic Program Verification](papers/arxiv.2608.30803.md) <img height="20" src="img/new.png" alt="new">
+- [Schwarz: Solver-Aware Agentic Program Verification](papers/arxiv.2608.30803.md)
 - [Symbolon: Symbolic Execution by Learning Code Transformation](papers/arxiv.2606.29108.md)
 
 #### Fuzzing & Dynamic Analysis
@@ -197,10 +200,10 @@ Table of Content:
 - [Coverage-Guided Multi-Agent Harness Generation for Java Library Fuzzing](papers/arxiv.2603.08616.md)
 - [Directed Neuro-Symbolic Stochastic Execution for Verification of Distributed Parallel AI Programs](papers/arxiv.2608.07947.md)
 - [FLARE: Agentic Coverage-Guided Fuzzing for LLM-Based Multi-Agent Systems](papers/arxiv.2604.05289.md)
-- [Lie to Me: Finding Bugs in ZK DSL Toolchains with Adversarial Witness Injection](papers/arxiv.2608.30648.md) <img height="20" src="img/new.png" alt="new">
+- [Lie to Me: Finding Bugs in ZK DSL Toolchains with Adversarial Witness Injection](papers/arxiv.2608.30648.md)
 - [SAFuzz: Semantic-Guided Adaptive Fuzzing for LLM-Generated Code](papers/arxiv.2602.11209.md)
 - [SeedSmith: LLM-Driven Seed Synthesis for Directed Fuzzing](papers/arxiv.2607.08949.md)
-- [SpecTrum: Specification-Guided Differential Fuzzing for Ethereum Consensus Clients](papers/arxiv.2608.17738.md) <img height="20" src="img/new.png" alt="new">
+- [SpecTrum: Specification-Guided Differential Fuzzing for Ethereum Consensus Clients](papers/arxiv.2608.17738.md)
 - [Synthesizing Multi-Agent Harnesses for Vulnerability Discovery](papers/arxiv.2604.20801.md)
 - [Thinking More, Harnessing Better: State Machine Guided Harness Automatic Generation with Project Digestion and Workflow Decomposition](papers/arxiv.2607.07007.md)
 
@@ -210,6 +213,7 @@ Table of Content:
 
 - [A Multi-Agent Framework for Automated Exploit Generation with Constraint-Guided Comprehension and Reflection](papers/arxiv.2604.05130.md)
 - [AgentGuard: An Attribute-Based Access Control Framework for Tool-Use LLM-Based Agent](papers/arxiv.2605.28071.md)
+- [Aletheia: Permission-Minimality Testing for Coding-Agent Rules](papers/arxiv.2609.39678.md) <img height="20" src="img/new.png" alt="new">
 - [AnyPoC: Universal Proof-of-Concept Test Generation for Scalable LLM-Based Bug Detection](papers/arxiv.2604.11950.md)
 - [Argus: Reorchestrating Static Analysis via a Multi-Agent Ensemble for Full-Chain Security Vulnerability Detection](papers/arxiv.2604.06633.md)
 - [AutoEG: Exploiting Known Third-Party Vulnerabilities in Black-Box Web Applications](papers/arxiv.2604.00704.md)
@@ -241,7 +245,7 @@ Table of Content:
 - [VibeGuard: A Security Gate Framework for AI-Generated Code](papers/arxiv.2604.01052.md)
 - [VulnAgent-R2: Evidence-Calibrated Multi-Agent Auditing for Repository-Level Vulnerability Detection](papers/arxiv.2603.13384.md)
 - [VulnGym: Benchmarking Coding Agents for Repository-Level Vulnerability Detection](papers/arxiv.2608.02001.md)
-- [When Context Gets Root: Privilege Escalation in LLM Harnesses](papers/arxiv.2608.27299.md) <img height="20" src="img/new.png" alt="new">
+- [When Context Gets Root: Privilege Escalation in LLM Harnesses](papers/arxiv.2608.27299.md)
 - [When Labels Are Scarce: A Systematic Mapping of Label-Efficient Code Vulnerability Detection](papers/arxiv.2604.00079.md)
 - [Your Agent Is Mine: Measuring Malicious Intermediary Attacks on the LLM Supply Chain](papers/arxiv.2604.08407.md)
 
@@ -254,7 +258,7 @@ Table of Content:
 - [Phoenix: A Modular and Versatile Framework for C/C++ Pointer Analysis](papers/arxiv.2602.01720.md)
 - [PyFlow: An Inter-procedural Static Analysis Framework for Python](papers/arxiv.2608.07026.md)
 - [Squeezing Juicy Variant Bugs Out of Modern Browsers](papers/usenix.2608.zhengSqueezingJuicyVariant.md)
-- [Static Detection of Post-Quantum Cryptographic Algorithms in Stripped Binaries for Digital Forensic Examination and Migration Assurance](papers/arxiv.2608.25122.md) <img height="20" src="img/new.png" alt="new">
+- [Static Detection of Post-Quantum Cryptographic Algorithms in Stripped Binaries for Digital Forensic Examination and Migration Assurance](papers/arxiv.2608.25122.md)
 
 #### Secure Software Generation
 
@@ -282,6 +286,7 @@ Table of Content:
 - [SCPatcher: Automated Smart Contract Code Repair via Retrieval-Augmented Generation and Knowledge Graph](papers/arxiv.2604.00687.md)
 - [SHERLOC: Structured Diagnostic Localization for Code Repair Agents](papers/arxiv.2606.24820.md)
 - [SYNTHFIX: Adaptive Neuro-Symbolic Vulnerability Repair](papers/synthfix.md)
+- [Trustworthy Runtime Error Healing in Real-World Repositories: A Benchmark and Guardrail](papers/arxiv.2609.39086.md) <img height="20" src="img/new.png" alt="new">
 - [VulKey: Automated Vulnerability Repair Guided by Domain-Specific Repair Patterns](papers/arxiv.2605.01769.md)
 - [What's in a Benchmark? The Case of SWE-Bench in Automated Program Repair](papers/arxiv.2602.04449.md)
 - [Why LLMs Fail: A Failure Analysis and Partial Success Measurement for Automated Security Patch Generation](papers/arxiv.2603.10072.md)
@@ -289,7 +294,7 @@ Table of Content:
 #### Refactoring & Migration
 
 - ["Refactoring Runaway": Understanding and Mitigating Tangled Refactorings in Coding Agents for Issue Resolution](papers/arxiv.2605.22526.md)
-- [Update from Hell: Can Coding Agents Survive Hidden Breakage in Dependency Upgrades?](papers/arxiv.2608.30300.md) <img height="20" src="img/new.png" alt="new">
+- [Update from Hell: Can Coding Agents Survive Hidden Breakage in Dependency Upgrades?](papers/arxiv.2608.30300.md)
 
 #### Technical Debt & Evolution
 
@@ -322,7 +327,7 @@ Table of Content:
 - [IndustryCode: A Benchmark for Industry Code Generation](papers/arxiv.2604.02729.md)
 - [OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling](papers/arxiv.2608.05141.md)
 - [ProgramBench: Can Language Models Rebuild Programs From Scratch?](papers/arxiv.2605.03546.md)
-- [RealSWE: A Compositional Evaluation of Coding Agents under Realistic User Requests](papers/arxiv.2608.27831.md) <img height="20" src="img/new.png" alt="new">
+- [RealSWE: A Compositional Evaluation of Coding Agents under Realistic User Requests](papers/arxiv.2608.27831.md)
 - [RealVuln: Benchmarking Rule-Based, General-Purpose LLM, and Security-Specialized Scanners on Real-World Code](papers/arxiv.2604.13764.md)
 - [Repo0: Design-Driven Zero-to-All Code Generation](papers/arxiv.2608.19854.md)
 - [SaaSBench: Exploring the Boundaries of Coding Agents in Long-Horizon Enterprise SaaS Engineering](papers/arxiv.2605.17526.md)
@@ -331,6 +336,7 @@ Table of Content:
 - [Toponium effects on quantum steering and Bell nonlocality of top quarks](papers/arxiv.2606.30768.md)
 - [TRACE: Temporal Relationship-Aware Conversational Entrainment Detection in Dyadic Speech](papers/arxiv.2606.30543.md)
 - [Vul4Py: Benchmarking Automated Vulnerability Repair in Python with Paired Exploit and Functional Oracles](papers/arxiv.2608.00692.md)
+- [VulContextBench: A Benchmark for Security Context Retrieval in Coding Agents](papers/arxiv.2609.32601.md) <img height="20" src="img/new.png" alt="new">
 
 #### Empirical Studies
 
@@ -340,5 +346,6 @@ Table of Content:
 - [LLM-Enabled Open-Source Systems in the Wild: An Empirical Study of Vulnerabilities in GitHub Security Advisories](papers/arxiv.2604.04288.md)
 - [SWE-chat: Coding Agent Interactions From Real Users in the Wild](papers/arxiv.2604.20779.md)
 - [Technical Report: Exploring the Emerging Threats of the Agent Skill Ecosystem](papers/arxiv.2605.28588.md)
+- [Trajectory-Level Security Debt in LLM Coding Agents](papers/arxiv.2609.35199.md) <img height="20" src="img/new.png" alt="new">
 - [Understanding Bugs in Modern Agentic Frameworks: A Study of Symptoms, Root Causes, and Triggering Conditions](papers/arxiv.2604.08906.md)
 - [Where Agent Frameworks Fall Short: Examining Functional Challenges and Usability Concerns](papers/arxiv.2602.21806.md)
