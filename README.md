@@ -83,6 +83,7 @@ Table of Content:
 - [Agentic Agile-V: From Vibe Coding to Verified Engineering in Software and Hardware Development](papers/arxiv.2605.20456.md)
 - [Agentic AI Software Engineers: Programming with Trust](papers/arxiv.2502.13767.md)
 - [Agentic Software: How AI Agents Are Restructuring the Software Paradigm](papers/arxiv.2606.05608.md)
+- [Agentic Verified Optimization of Real-World Software](papers/arxiv.2610.30188.md) <img height="20" src="img/new.png" alt="new">
 - [Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy](papers/arxiv.2606.24177.md)
 - [AI Harness Engineering: A Runtime Substrate for Foundation-Model Software Agents](papers/arxiv.2605.13357.md)
 - [Ambig-SWE: Interactive Agents to Overcome Underspecificity in Software Engineering](papers/arxiv.2502.13069.md)
@@ -138,10 +139,12 @@ Table of Content:
 - [Can LLMs Deobfuscate Binary Code? A Systematic Analysis of Large Language Models into Pseudocode Deobfuscation](papers/arxiv.2604.08083.md)
 - [Challenges and Future Directions in Agentic Reverse Engineering Systems](papers/arxiv.2604.14317.md)
 - [E-Path: Equality Saturation for Control-Flow Graphs](papers/arxiv.2605.28694.md)
+- [Program Bindings Inside Code Models](papers/arxiv.2610.39489.md) <img height="20" src="img/new.png" alt="new">
 
 #### Code Review
 
 - [A Survey of Code Review Benchmarks and Evaluation Practices in Pre-LLM and LLM Era](papers/arxiv.2602.13377.md)
+- [Can Agentic Code Review Catch Vulnerabilities Before They Are Merged?](papers/arxiv.2610.33509.md) <img height="20" src="img/new.png" alt="new">
 
 #### Architecture & Design
 
@@ -189,7 +192,7 @@ Table of Content:
 - [Neuro-Symbolic Proof-of-Vulnerability Generation with Open-Weight Models](papers/arxiv.2608.04217.md)
 - [Neuro-Symbolic Reasoning for Vulnerability Detection](papers/arxiv.2607.03963.md)
 - [QRS: A Rule-Synthesizing Neuro-Symbolic Triad for Autonomous Vulnerability Discovery](papers/arxiv.2602.09774.md)
-- [Schwarz: Solver-Aware Agentic Program Verification](papers/arxiv.2608.30803.md) <img height="20" src="img/new.png" alt="new">
+- [Schwarz: Solver-Aware Agentic Program Verification](papers/arxiv.2608.30803.md)
 - [Symbolon: Symbolic Execution by Learning Code Transformation](papers/arxiv.2606.29108.md)
 
 #### Fuzzing & Dynamic Analysis
@@ -197,12 +200,13 @@ Table of Content:
 - [Coverage-Guided Multi-Agent Harness Generation for Java Library Fuzzing](papers/arxiv.2603.08616.md)
 - [Directed Neuro-Symbolic Stochastic Execution for Verification of Distributed Parallel AI Programs](papers/arxiv.2608.07947.md)
 - [FLARE: Agentic Coverage-Guided Fuzzing for LLM-Based Multi-Agent Systems](papers/arxiv.2604.05289.md)
-- [Lie to Me: Finding Bugs in ZK DSL Toolchains with Adversarial Witness Injection](papers/arxiv.2608.30648.md) <img height="20" src="img/new.png" alt="new">
+- [Lie to Me: Finding Bugs in ZK DSL Toolchains with Adversarial Witness Injection](papers/arxiv.2608.30648.md)
 - [SAFuzz: Semantic-Guided Adaptive Fuzzing for LLM-Generated Code](papers/arxiv.2602.11209.md)
 - [SeedSmith: LLM-Driven Seed Synthesis for Directed Fuzzing](papers/arxiv.2607.08949.md)
-- [SpecTrum: Specification-Guided Differential Fuzzing for Ethereum Consensus Clients](papers/arxiv.2608.17738.md) <img height="20" src="img/new.png" alt="new">
+- [SpecTrum: Specification-Guided Differential Fuzzing for Ethereum Consensus Clients](papers/arxiv.2608.17738.md)
 - [Synthesizing Multi-Agent Harnesses for Vulnerability Discovery](papers/arxiv.2604.20801.md)
 - [Thinking More, Harnessing Better: State Machine Guided Harness Automatic Generation with Project Digestion and Workflow Decomposition](papers/arxiv.2607.07007.md)
+- [Typed Template Fuzzing](papers/arxiv.2610.31342.md) <img height="20" src="img/new.png" alt="new">
 
 ### Software Security
 
@@ -241,7 +245,7 @@ Table of Content:
 - [VibeGuard: A Security Gate Framework for AI-Generated Code](papers/arxiv.2604.01052.md)
 - [VulnAgent-R2: Evidence-Calibrated Multi-Agent Auditing for Repository-Level Vulnerability Detection](papers/arxiv.2603.13384.md)
 - [VulnGym: Benchmarking Coding Agents for Repository-Level Vulnerability Detection](papers/arxiv.2608.02001.md)
-- [When Context Gets Root: Privilege Escalation in LLM Harnesses](papers/arxiv.2608.27299.md) <img height="20" src="img/new.png" alt="new">
+- [When Context Gets Root: Privilege Escalation in LLM Harnesses](papers/arxiv.2608.27299.md)
 - [When Labels Are Scarce: A Systematic Mapping of Label-Efficient Code Vulnerability Detection](papers/arxiv.2604.00079.md)
 - [Your Agent Is Mine: Measuring Malicious Intermediary Attacks on the LLM Supply Chain](papers/arxiv.2604.08407.md)
 
@@ -254,7 +258,7 @@ Table of Content:
 - [Phoenix: A Modular and Versatile Framework for C/C++ Pointer Analysis](papers/arxiv.2602.01720.md)
 - [PyFlow: An Inter-procedural Static Analysis Framework for Python](papers/arxiv.2608.07026.md)
 - [Squeezing Juicy Variant Bugs Out of Modern Browsers](papers/usenix.2608.zhengSqueezingJuicyVariant.md)
-- [Static Detection of Post-Quantum Cryptographic Algorithms in Stripped Binaries for Digital Forensic Examination and Migration Assurance](papers/arxiv.2608.25122.md) <img height="20" src="img/new.png" alt="new">
+- [Static Detection of Post-Quantum Cryptographic Algorithms in Stripped Binaries for Digital Forensic Examination and Migration Assurance](papers/arxiv.2608.25122.md)
 
 #### Secure Software Generation
 
@@ -271,6 +275,7 @@ Table of Content:
 - [Bug Report Specification Refinement with Trajectory Guidance for Automated Program Repair](papers/arxiv.2607.07882.md)
 - [DebugRepair: Enhancing LLM-Based Automated Program Repair via Self-Directed Debugging](papers/arxiv.2604.19305.md)
 - [EviACT: An Evidence-to-Action Framework for Agentic Program Repair](papers/arxiv.2605.27238.md)
+- [ExploreRepair: Evidence-Specialized Agents for Vulnerability Repair under Information Constraints](papers/arxiv.2610.39899.md) <img height="20" src="img/new.png" alt="new">
 - [Formal-Method-Guided Vibe Coding: Closing the Verification Loop on AI-Generated Safety-Critical Software Through Model-Driven Engineering](papers/arxiv.2606.22413.md)
 - [From Guessing to Seeing: Enhancing LLM-Based Program Repair via Trace-Guided Multi-strategy Debate](papers/arxiv.2604.02647.md)
 - [GALA: Multimodal Graph Alignment for Bug Localization in Automated Program Repair](papers/arxiv.2604.08089.md)
@@ -289,7 +294,7 @@ Table of Content:
 #### Refactoring & Migration
 
 - ["Refactoring Runaway": Understanding and Mitigating Tangled Refactorings in Coding Agents for Issue Resolution](papers/arxiv.2605.22526.md)
-- [Update from Hell: Can Coding Agents Survive Hidden Breakage in Dependency Upgrades?](papers/arxiv.2608.30300.md) <img height="20" src="img/new.png" alt="new">
+- [Update from Hell: Can Coding Agents Survive Hidden Breakage in Dependency Upgrades?](papers/arxiv.2608.30300.md)
 
 #### Technical Debt & Evolution
 
@@ -322,7 +327,7 @@ Table of Content:
 - [IndustryCode: A Benchmark for Industry Code Generation](papers/arxiv.2604.02729.md)
 - [OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling](papers/arxiv.2608.05141.md)
 - [ProgramBench: Can Language Models Rebuild Programs From Scratch?](papers/arxiv.2605.03546.md)
-- [RealSWE: A Compositional Evaluation of Coding Agents under Realistic User Requests](papers/arxiv.2608.27831.md) <img height="20" src="img/new.png" alt="new">
+- [RealSWE: A Compositional Evaluation of Coding Agents under Realistic User Requests](papers/arxiv.2608.27831.md)
 - [RealVuln: Benchmarking Rule-Based, General-Purpose LLM, and Security-Specialized Scanners on Real-World Code](papers/arxiv.2604.13764.md)
 - [Repo0: Design-Driven Zero-to-All Code Generation](papers/arxiv.2608.19854.md)
 - [SaaSBench: Exploring the Boundaries of Coding Agents in Long-Horizon Enterprise SaaS Engineering](papers/arxiv.2605.17526.md)
@@ -331,6 +336,7 @@ Table of Content:
 - [Toponium effects on quantum steering and Bell nonlocality of top quarks](papers/arxiv.2606.30768.md)
 - [TRACE: Temporal Relationship-Aware Conversational Entrainment Detection in Dyadic Speech](papers/arxiv.2606.30543.md)
 - [Vul4Py: Benchmarking Automated Vulnerability Repair in Python with Paired Exploit and Functional Oracles](papers/arxiv.2608.00692.md)
+- [When Requirements Interact: Scaling Long-Horizon Coding via Interdependent Specifications](papers/arxiv.2610.40256.md) <img height="20" src="img/new.png" alt="new">
 
 #### Empirical Studies
 
